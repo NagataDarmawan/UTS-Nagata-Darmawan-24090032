@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<div class="container">
+    <aside class="sidebar">
+        <a href="dashboard.html">
+            <img src="img/home.svg" class="menu-icon active">
+        </a>
+
+        <a href="produk.html">
+            <img src="img/List.svg" class="menu-icon">
+        </a>
+
+        <a href="#">
+            <img src="img/dollar.svg" class="menu-icon">
+        </a>
+
+        <a href="#">
+            <img src="img/chart.svg" class="menu-icon">
+        </a>
+
+        <a href="#">
+            <img src="img/setting.svg" class="menu-icon">
+        </a>
+    </aside>
+
+    <main class="content">
+        <h1 class="title">Dashboard</h1>
+
+        <div class="card-wrapper">
+            
+            <div class="card">
+                <img src="img/produk.svg" class="card-icon">
+                <div class="label">Total Products</div>
+                <div class="value" id="totalProducts">0</div>
+            </div>
+
+            <div class="card">
+                <img src="img/tas belanja.svg" class="card-icon">
+                <div class="label">Total Sales</div>
+                <div class="value" id="totalSales">0</div>
+            </div>
+
+            <div class="card">
+                <img src="img/dollar.svg" class="card-icon">
+                <div class="label">Total Revenue</div>
+                <div class="value" id="totalRevenue">Rp 0</div>
+            </div>
+        </div>
+
+        <a href="produk.html" class="btn">Lihat Data Produk</a>
+
+    </main>
+
+</div>
+
+<script src="Javascript/script.js"></script>
+</body>
+</html>
